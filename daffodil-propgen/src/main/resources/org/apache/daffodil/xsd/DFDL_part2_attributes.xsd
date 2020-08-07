@@ -677,6 +677,8 @@
       type="dfdl:UTF16WidthEnum" />
     <xsd:attribute form="qualified" name="ignoreCase"
       type="dfdl:YesNoEnum" />
+    <xsd:attribute form="qualified" name="textBidi"
+      type="dfdl:YesNoEnum" />
     <xsd:attribute form="qualified" name="choiceBranchKey"
       type="dfdl:ListOfDFDLStringLiteral" />
     <xsd:attribute ref="dfdlx:choiceBranchKeyRanges" />
